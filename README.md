@@ -1,4 +1,4 @@
-# pinkhide27 test
+# pinkhide27
 
 > 百度前端学院2018
 > 设计师学院
