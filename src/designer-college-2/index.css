@@ -1,0 +1,51 @@
+body{
+	width: 100%;
+	height: 100%;
+}
+
+.box{
+	width: 60px;
+	height: 68px;
+	line-height: 68px;
+	background-color: #f7f6f6;
+	border: 2px solid #ebebeb;
+	font-size: 18px;
+	color: #000;
+	text-align: center;
+	margin: 0 auto 20px;
+}
+.box:nth-child(2){
+	-webkit-transform: skewX(30deg);
+	-moz-transform: skewX(30deg);
+	-ms-transform: skewX(30deg);
+	-o-transform: skewX(30deg);
+	transform: skewX(30deg);
+}
+.box:nth-child(3){
+	-webkit-transform: scaleX(.5);
+	-moz-transform: scaleX(.5);
+	-ms-transform: scaleX(.5);
+	-o-transform: scaleX(.5);
+	transform: scaleX(.5);
+}
+.box:nth-child(4){
+	-webkit-transform: rotateZ(45deg);
+	-moz-transform: rotateZ(45deg);
+	-ms-transform: rotateZ(45deg);
+	-o-transform: rotateZ(45deg);
+	transform: rotateZ(45deg);
+}
+.box:nth-child(5){
+	-webkit-transform: translate(10px, 20px);
+	-moz-transform: translate(10px, 20px);
+	-ms-transform: translate(10px, 20px);
+	-o-transform: translate(10px, 20px);
+	transform: translate(10px, 20px);
+}
+.box:nth-child(6){
+	-webkit-transform: skewX(30deg) scaleX(.5) rotateZ(45deg) translate(10px, 20px);
+	-moz-transform: skewX(30deg) scaleX(.5) rotateZ(45deg) translate(10px, 20px);
+	-ms-transform: skewX(30deg) scaleX(.5) rotateZ(45deg) translate(10px, 20px);
+	-o-transform: skewX(30deg) scaleX(.5) rotateZ(45deg) translate(10px, 20px);
+	transform: skewX(30deg) scaleX(.5) rotateZ(45deg) translate(10px, 20px);
+}
